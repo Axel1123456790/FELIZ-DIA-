@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>corazonlatiendo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<style>
+
+    .container{
+        background:  bisque;
+        position: relative;
+        top: 200px;
+    }
+        </style>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex ;
+            align-items: center;
+            justify-content: center;
+            background: #0b1522;
+        }
+
+        heart{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: relative;
+    transform: rotate(45deg);
+    box-shadow: -20px 20px 150px #f20044;
+    animation: palpitar 0.7s linear infinite alternate;
+}
+
+    
+
+ 
+
+        @keyframes palpitar{
+            0%{transform: rotate(45deg) scale(1.10);}
+            80%{transform: rotate(45deg) scale(1.0);}
+            100%{transform: rotate(45deg) scale(0.8);}
+        }
+        .heart::before{
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: red;
+    right: 50%;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px #f20044;
+    
+}
+
+.heart::after{
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: red;
+    top: -50%;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px #f20044;
+    
+}
+        
+        
+        
+        .contenido{
+            position: fixed;
+            margin: 50px;
+            text-align: center;
+            flex-direction: column;
+        }
+       
+        
+        
+        h1{color:white};
+        h2{color:white};
+        h3{color:white};
+        
+
+    </style>
+
+
+
+
+    
+<body>
+    <div class="heart"></div>
+    <div class="contenido">
+        <h1>FELIZ DIA DE </h1>
+        <h2>SAN VALENTIN</h2>
+        <h3>TE AMO :33</h3>
+    </div>
+    <div style="width: 1350px; height: 195px; background-color: yellow; position: fixed; top: 450px;">
+        <h4 style="color:black; position: fixed; top: 450px; left: 25px;">Hola Querida.
+
+            Es difícil encontrar las palabras adecuadas para expresar lo mucho que significas para mí. Pero hoy, en este día especial de San Valentín, quiero hacer un esfuerzo y escribirte esta carta para demostrarte cuánto te quiero y cuánto te aprecio.
+            
+            Desde que te conocí, mi vida ha cambiado para mejor. Tu amor y apoyo incondicional han hecho que me sienta más fuerte y confiado en mí mismo. Me has enseñado tanto sobre el amor y la compasión, y me has demostrado de qué manera una persona puede ser un gran impacto en la vida de otra.
+            
+            Eres mi mejor amiga, mi confidente y mi amante. No puedo imaginar mi vida sin ti. Tu risa contagiosa, tu sonrisa brillante y tu alegría me hacen sentir tan afortunado de tenerte a mi lado. Me encanta pasar tiempo contigo, hacer planes juntos y simplemente disfrutar de la vida juntos.
+            
+            Sé que a veces no soy el novio perfecto, pero quiero que sepas que estoy comprometido a ser el mejor hombre que pueda ser para ti. Quiero ser tu compañero de vida, apoyarte en todo lo que hagas y estar a tu lado a través de todos los altibajos de la vida.
+            
+            Quiero que sepas que te amo incondicionalmente, sin importar lo que pase. Eres mi todo, y no puedo imaginar mi vida sin ti. Quiero hacerte sentir amada y apreciada cada día, y prometo hacer todo lo posible para que así sea.
+            
+            En este Día de San Valentín, quiero decirte de nuevo cuánto te amo y cuánto te aprecio. Eres mi sol en días grises, mi luz en la oscuridad y mi hogar en todas partes. No puedo esperar para pasar el resto de mi vida contigo, amándote cada día más y más.
+            
+            Con todo mi amor,</h4>
+    </div>
+   
+    
+</body>
+
+</html>
